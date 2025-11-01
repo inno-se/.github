@@ -10,11 +10,6 @@ body:
     attributes:
       label: <h2> User Story </h2>
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         Write a user story following the format:
 
         As a [persona],
@@ -26,7 +21,6 @@ body:
         As a user reading comments,
         I want to be protected from seeing harmful or offensive language
         so that I can enjoy the content and discussions without being exposed to toxicity.
-        -->
     validations:
       required: true
 
@@ -35,11 +29,6 @@ body:
     attributes:
       label: "<h2> Acceptance criteria (AC) </h2>"
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Don't modify the default text in this input field.
-      value: |
-        <!--
         Define specific, testable (pass-fail) scenarios that must be met for this story to be complete.
         Each criterion should be in its own "AC" section below.
         Add or remove "AC" sections if necessary.
@@ -57,7 +46,6 @@ body:
         THEN an error message "This comment violates our community guidelines" is displayed
         BUT the comment does not appear in the comment list
         AND the comment count on the video does not increase
-        -->
     validations:
       required: false
 

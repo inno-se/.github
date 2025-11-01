@@ -10,11 +10,6 @@ body:
     attributes:
       label: Steps to reproduce
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         Explain step by step how to reproduce the behavior.
         Provide screenshots or a video if necessary.
 
@@ -24,7 +19,6 @@ body:
         1. Open the app. Do not log in or create an account.
         1. Remain on the initial "For You" feed that autoplays.
         1. Swipe up to view the next video for the first 10-15 videos.
-        -->
     validations:
       required: true
 
@@ -33,11 +27,6 @@ body:
     attributes:
       label: Expected Behavior
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         Briefly describe what you expect to happen.
         Provide screenshots or a video if necessary.
 
@@ -45,7 +34,6 @@ body:
 
         Within the first 10 videos, a new user should see content from a variety of popular categories (e.g., comedy, dance, animals, DIY, educational).
         The feed should feel diverse, aligning with AC-2 of https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues/9.
-        -->
     validations:
       required: true
 
@@ -54,11 +42,6 @@ body:
     attributes:
       label: Actual Behavior
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         Briefly describe what you're experiencing.
         Provide screenshots or a video if necessary.
 
@@ -66,7 +49,6 @@ body:
 
         The initial feed is almost entirely composed of videos from a single category.
         After swiping through 10 videos, approximately 8-9 of them were dance-related challenges, providing a monotonous and non-diverse first-time user experience.
-        -->
     validations:
       required: true
 

@@ -10,11 +10,6 @@ body:
     attributes:
       label: "<h2> What is the technical debt? </h2>"
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         Describe the technical shortcut, design flaw, or outdated component.
         Be specific and include links to the relevant code, files, or services.
 
@@ -22,7 +17,6 @@ body:
 
         The user's notification preferences (e.g., "likes", "comments", "new followers") are currently hardcoded as a JSON string within the mobile client's settings screen.
         See: `/mobile/src/screens/SettingsScreen.tsx:54`
-        -->
     validations:
       required: true
 
@@ -31,18 +25,12 @@ body:
     attributes:
       label: "<h2> Why was this shortcut taken? </h2>"
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         (Optional) If known, explain the original reason for this implementation.
         This helps with understanding the context and avoiding similar issues in the future.
 
         Example:
 
         This was a temporary measure to meet the deadline for the v1.1 release. The backend API to fetch these settings dynamically was not ready at the time.
-        -->
     validations:
       required: false
 
@@ -51,11 +39,6 @@ body:
     attributes:
       label: "<h2> What is the impact of this debt? </h2>"
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         Explain how this debt is slowing down development, increasing risk, or causing other problems.
         This is the most important section for prioritization.
 
@@ -64,7 +47,6 @@ body:
         Every time we want to add a new notification type (e.g., "mentions"), we have to release a new version of the mobile app.
         This prevents us from rolling out new features on the backend and makes the feature flag system for notifications useless.
         It slows down our development cycle by at least a week for any new notification feature.
-        -->
     validations:
       required: true
 
@@ -73,11 +55,6 @@ body:
     attributes:
       label: "<h2> What is the proposed solution? </h2>"
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         Outline the technical plan to fix the debt.
         Describe the desired end state.
 
@@ -87,7 +64,6 @@ body:
         2. Modify the `SettingsScreen.tsx` to fetch this list from the new endpoint on component mount.
         3. Dynamically render the list of preferences on the settings screen instead of using the hardcoded list.
         4. Ensure the client-side state management correctly handles the asynchronously loaded data.
-        -->
     validations:
       required: true
 
@@ -98,6 +74,6 @@ body:
       description: |
         Don't modify the default text in this input field.
       value: |
-        Sub-issues are tasks that resolve this technical debt.
+        Sub-issues are type `Task` issues that resolve this technical debt.
     validations:
       required: false

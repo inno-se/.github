@@ -10,11 +10,6 @@ body:
     attributes:
       label: "<h2> Justification / Business Value </h2>"
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         Explain why this foundational work is necessary.
         What future user stories, features, or non-functional requirements (e.g., performance, scalability) does this work enable?
         Link to the relevant issues if they exist.
@@ -26,7 +21,6 @@ body:
         By implementing a new WebSocket-based service for state synchronization, we will unblock the following planned user stories: 
         - #24 
         - #42
-        -->
     validations:
       required: true
 
@@ -35,11 +29,6 @@ body:
     attributes:
       label: "<h2> Proposed Technical Implementation </h2>"
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         Describe the proposed technical approach at a high level.
         What systems will be changed? What new components will be created?
         Mention any new technologies, libraries, or architectural patterns.
@@ -50,7 +39,6 @@ body:
         2. Define a JSON-based protocol for synchronizing video editing actions (e.g., trim, add_filter, adjust_volume).
         3. Deploy the service to our Kubernetes staging environment with a dedicated ingress.
         4. Refactor the mobile client's `VideoEditorViewModel` to connect to this new WebSocket endpoint.
-        -->
     validations:
       required: true
 
@@ -59,11 +47,6 @@ body:
     attributes:
       label: "<h2> Acceptance Criteria (AC) </h2>"
       description: |
-        Keep the comment.
-        Follow the instructions in the comment.
-        Write your text in this input field after the comment.
-      value: |
-        <!--
         Define specific, technical, and testable conditions that must be met for this enabler to be considered complete.
         These are typically not user-facing scenarios.
 
@@ -74,7 +57,6 @@ body:
         - [ ] Sending a 'trim' action from one connected client is reflected in a second connected client's UI within 200ms.
         - [ ] The existing single-user editing functionality is not regressed by these changes.
         - [ ] Automated integration tests for the new service achieve 85% code coverage.
-        -->
     validations:
       required: true
 

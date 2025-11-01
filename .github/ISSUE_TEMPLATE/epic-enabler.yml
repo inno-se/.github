@@ -8,7 +8,7 @@ body:
   - type: textarea
     id: justification
     attributes:
-      label: "<h2> Justification / Business Value </h2>"
+      label: '<h2> Justification / Business Value </h2>'
       description: |
         Explain why this foundational work is necessary.
         What future user stories, features, or non-functional requirements (e.g., performance, scalability) does this work enable?
@@ -27,7 +27,7 @@ body:
   - type: textarea
     id: implementation-details
     attributes:
-      label: "<h2> Proposed Technical Implementation </h2>"
+      label: '<h2> Proposed Technical Implementation </h2>'
       description: |
         Describe the proposed technical approach at a high level.
         What systems will be changed? What new components will be created?
@@ -45,7 +45,7 @@ body:
   - type: textarea
     id: acceptance-criteria
     attributes:
-      label: "<h2> Acceptance Criteria (AC) </h2>"
+      label: '<h2> Acceptance Criteria (AC) </h2>'
       description: |
         Define specific, technical, and testable conditions that must be met for this enabler to be considered complete.
         These are typically not user-facing scenarios.
@@ -63,7 +63,7 @@ body:
   - type: textarea
     id: sub-issues
     attributes:
-      label: "<h2> Sub-issues </h2>"
+      label: '<h2> Sub-issues </h2>'
       description: |
         Don't modify the default text in this input field.
       value: |

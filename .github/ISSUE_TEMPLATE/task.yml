@@ -17,7 +17,7 @@ body:
   - type: textarea
     id: task-description-and-context
     attributes:
-      label: "<h2> Task Description & Context </h2>"
+      label: '<h2> Task Description & Context </h2>'
       description: |
         Briefly describe what needs to be done and why.
 
@@ -31,7 +31,7 @@ body:
   - type: textarea
     id: subtasks
     attributes:
-      label: "<h2> Subtasks </h2>"
+      label: '<h2> Subtasks </h2>'
       description: |
         Break down the task into a checklist of specific, actionable subtasks.
         This is your "how-to" guide for meeting the Task Acceptance Criteria.
@@ -49,7 +49,7 @@ body:
   - type: textarea
     id: task-acceptance-criteria
     attributes:
-      label: "<h2> Task Acceptance Criteria </h2>"
+      label: '<h2> Task Acceptance Criteria </h2>'
       description: |
         List specific and verifiable outcomes.
         This is what will be checked during review.
@@ -69,7 +69,7 @@ body:
   - type: textarea
     id: sub-issues
     attributes:
-      label: "<h2> Sub-issues </h2>"
+      label: '<h2> Sub-issues </h2>'
       description: |
         Don't modify the default text in this input field.
       value: |

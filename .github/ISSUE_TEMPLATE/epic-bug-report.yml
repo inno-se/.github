@@ -55,7 +55,7 @@ body:
   - type: textarea
     id: sub-issues
     attributes:
-      label: "<h2> Sub-issues </h2>"
+      label: '<h2> Sub-issues </h2>'
       description: |
         Don't modify the default text in this input field.
       value: |

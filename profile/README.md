@@ -1,5 +1,5 @@
-# inno-swp-2025
+# inno-se
 
 This GitHub Organization was created to use GitHub organization-specific features.
 
-The README in the [inno-swp-2025/we-have-tiktok-at-home](https://github.com/inno-swp-2025/we-have-tiktok-at-home) repository explains how to set up and use GitHub Projects for project management.
+The README in the [inno-se/the-guide](https://github.com/inno-se/the-guide) repository explains how to run a software project as a team.

@@ -33,7 +33,7 @@ body:
         Example:
 
         Within the first 10 videos, a new user should see content from a variety of popular categories (e.g., comedy, dance, animals, DIY, educational).
-        The feed should feel diverse, aligning with AC-2 of https://github.com/inno-swp-2025/we-have-tiktok-at-home/issues/9.
+        The feed should feel diverse, aligning with AC-2 of #9.
     validations:
       required: true
 

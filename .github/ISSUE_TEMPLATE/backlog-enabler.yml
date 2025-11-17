@@ -1,7 +1,7 @@
 name: "Backlog: Enabler"
 description: "Describe foundational work to enable future features or improvements."
 title: "[Enabler]: "
-labels: ["Backlog: Enabler", "Meta: Unknown Priority"]
+labels: ["Backlog: Enabler"]
 projects: ["inno-swp-2025/1"]
 type: "Backlog"
 body:

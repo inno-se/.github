@@ -1,7 +1,7 @@
 name: "Epic: Investigation"
 description: "Propose an investigation to explore a technical or product question."
 title: "[Investigation]: "
-labels: ["Epic: Investigation", "Meta: Unknown Priority"]
+labels: ["Epic: Investigation"]
 projects: ["inno-swp-2025/5"]
 type: "Epic"
 body:

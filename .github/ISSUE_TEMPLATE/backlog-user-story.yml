@@ -1,7 +1,7 @@
 name: "Backlog: User Story"
 description: "File a user story for a new feature or improvement."
 title: "[User Story]: "
-labels: []
+labels: ["Backlog: User Story"]
 projects: ["inno-se/1"]
 type: "Backlog"
 body:

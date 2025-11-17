@@ -1,7 +1,7 @@
 name: "Backlog: Investigation"
 description: "Propose an investigation to explore a technical or product question."
 title: "[Investigation]: "
-labels: []
+labels: ["Backlog: Investigation"]
 projects: ["inno-se/1"]
 type: "Backlog"
 body:

@@ -1,7 +1,7 @@
 name: "Epic: Bug Report"
 description: "Report a problem or defect in the product."
 title: "[Bug Report]: "
-labels: ["Severity: 2"]
+labels: ["Epic: Bug Report", "Severity: 2"]
 projects: ["inno-se/5"]
 type: "Epic"
 body:

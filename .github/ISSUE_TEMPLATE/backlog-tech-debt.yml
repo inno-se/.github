@@ -1,7 +1,7 @@
 name: "Backlog: Tech Debt"
 description: "Work to fix a past technical shortcut that is slowing down future development."
 title: "[Tech Debt]: "
-labels: []
+labels: ["Backlog: Tech Debt"]
 projects: ["inno-se/1"]
 type: "Backlog"
 body:

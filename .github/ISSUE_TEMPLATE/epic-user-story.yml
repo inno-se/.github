@@ -2,7 +2,7 @@ name: "Epic: User Story"
 description: "File a user story for a new feature or improvement."
 title: "[User Story]: "
 labels: ["Epic: User Story"]
-projects: ["inno-swp-2025/5"]
+projects: ["inno-se/5"]
 type: "Epic"
 body:
   - type: textarea

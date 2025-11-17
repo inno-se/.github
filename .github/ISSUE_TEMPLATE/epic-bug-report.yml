@@ -2,7 +2,7 @@ name: "Epic: Bug Report"
 description: "File a bug report."
 title: "[Bug Report]: "
 labels: ["Severity: 2"]
-projects: ["inno-swp-2025/5"]
+projects: ["inno-se/5"]
 type: "Epic"
 body:
   - type: textarea

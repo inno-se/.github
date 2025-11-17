@@ -2,7 +2,7 @@ name: "Epic: Enabler"
 description: "Describe foundational work to enable future features or improvements."
 title: "[Enabler]: "
 labels: ["Epic: Enabler"]
-projects: ["inno-swp-2025/5"]
+projects: ["inno-se/5"]
 type: "Epic"
 body:
   - type: textarea

@@ -2,7 +2,7 @@ name: "Epic: Tech Debt"
 description: "Address a technical shortcut or an area of the codebase that needs refactoring."
 title: "[Tech Debt]: "
 labels: ["Epic: Tech Debt"]
-projects: ["inno-swp-2025/5"]
+projects: ["inno-se/5"]
 type: "Epic"
 body:
   - type: textarea

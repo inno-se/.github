@@ -1,5 +1,5 @@
 name: "Backlog: Tech Debt"
-description: "Address a technical shortcut or an area of the codebase that needs refactoring."
+description: "Work to fix a past technical shortcut that is slowing down future development."
 title: "[Tech Debt]: "
 labels: []
 projects: ["inno-se/1"]

@@ -1,5 +1,5 @@
 name: "Epic: Bug Report"
-description: "File a bug report."
+description: "Report a problem or defect in the product."
 title: "[Bug Report]: "
 labels: ["Severity: 2"]
 projects: ["inno-se/5"]

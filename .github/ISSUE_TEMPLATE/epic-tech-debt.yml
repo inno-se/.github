@@ -1,5 +1,5 @@
 name: "Epic: Tech Debt"
-description: "Address a technical shortcut or an area of the codebase that needs refactoring."
+description: "Work to fix a past technical shortcut that is slowing down future development."
 title: "[Tech Debt]: "
 labels: ["Epic: Tech Debt"]
 projects: ["inno-se/5"]

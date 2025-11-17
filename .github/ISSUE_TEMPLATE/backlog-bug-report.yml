@@ -1,7 +1,7 @@
 name: "Backlog: Bug Report"
 description: "File a bug report."
 title: "[Bug Report]: "
-labels: ["Backlog: Bug Report", "Severity: 2"]
+labels: ["Severity: 2"]
 projects: ["inno-swp-2025/1"]
 type: "Backlog"
 body:

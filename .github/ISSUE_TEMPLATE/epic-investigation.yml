@@ -8,7 +8,7 @@ body:
   - type: textarea
     id: question-to-investigate
     attributes:
-      label: '<h2> The Question <a id="the-question" href="#the-question">📎</a> </h2>'
+      label: '<h2> The Question <a id="the-question" href="#the-question">🔗</a> </h2>'
       description: |
         Clearly state the primary question or hypothesis to be investigated.
 
@@ -21,7 +21,7 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: '<h2> Context & Rationale <a id="context-and-rationale" href="#context-and-rationale">📎</a> </h2>'
+      label: '<h2> Context & Rationale <a id="context-and-rationale" href="#context-and-rationale">🔗</a> </h2>'
       description: |
         Why is this investigation necessary? What problem does it address, what risk does it mitigate, or what opportunity does it explore? Link to relevant issues or documents.
 
@@ -34,7 +34,7 @@ body:
   - type: textarea
     id: approach
     attributes:
-      label: '<h2> Proposed Approach <a id="proposed-approach" href="#proposed-approach">📎</a> </h2>'
+      label: '<h2> Proposed Approach <a id="proposed-approach" href="#proposed-approach">🔗</a> </h2>'
       description: |
         Outline the high-level steps or tasks to be performed during this investigation. This is not a detailed implementation plan but a guide for the research.
 
@@ -50,7 +50,7 @@ body:
   - type: textarea
     id: deliverables
     attributes:
-      label: '<h2> Deliverables & Success Criteria <a id="deliverables-and-success-criteria" href="#deliverables-and-success-criteria">📎</a> </h2>'
+      label: '<h2> Deliverables & Success Criteria <a id="deliverables-and-success-criteria" href="#deliverables-and-success-criteria">🔗</a> </h2>'
       description: |
         What will be produced at the end of this investigation? How will we know it's complete and successful?
 
@@ -65,7 +65,7 @@ body:
   - type: textarea
     id: sub-issues
     attributes:
-      label: '<h2> Sub-issues <a id="sub-issues" href="#sub-issues">📎</a> </h2>'
+      label: '<h2> Sub-issues <a id="sub-issues" href="#sub-issues">🔗</a> </h2>'
       description: |
         Don't modify the default text in this input field.
       value: |

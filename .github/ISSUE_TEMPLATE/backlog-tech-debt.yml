@@ -8,7 +8,7 @@ body:
   - type: textarea
     id: the-debt
     attributes:
-      label: '<h2> What is the technical debt? <a id="what-is-the-technical-debt?" href="#what-is-the-technical-debt?">📎</a> </h2>'
+      label: '<h2> What is the technical debt? <a id="what-is-the-technical-debt?" href="#what-is-the-technical-debt?">🔗</a> </h2>'
       description: |
         Describe the technical shortcut, design flaw, or outdated component.
         Be specific and include links to the relevant code, files, or services.
@@ -23,7 +23,7 @@ body:
   - type: textarea
     id: context
     attributes:
-      label: '<h2> Why was this shortcut taken? <a id="why-was-this-shortcut-taken?" href="#why-was-this-shortcut-taken?">📎</a> </h2>'
+      label: '<h2> Why was this shortcut taken? <a id="why-was-this-shortcut-taken?" href="#why-was-this-shortcut-taken?">🔗</a> </h2>'
       description: |
         (Optional) If known, explain the original reason for this implementation.
         This helps with understanding the context and avoiding similar issues in the future.
@@ -37,7 +37,7 @@ body:
   - type: textarea
     id: impact
     attributes:
-      label: '<h2> What is the impact of this debt? <a id="what-is-the-impact-of-this-debt?" href="#what-is-the-impact-of-this-debt?">📎</a> </h2>'
+      label: '<h2> What is the impact of this debt? <a id="what-is-the-impact-of-this-debt?" href="#what-is-the-impact-of-this-debt?">🔗</a> </h2>'
       description: |
         Explain how this debt is slowing down development, increasing risk, or causing other problems.
         This is the most important section for prioritization.
@@ -53,7 +53,7 @@ body:
   - type: textarea
     id: proposed-solution
     attributes:
-      label: '<h2> What is the proposed solution? <a id="what-is-the-proposed-solution?" href="#what-is-the-proposed-solution?">📎</a> </h2>'
+      label: '<h2> What is the proposed solution? <a id="what-is-the-proposed-solution?" href="#what-is-the-proposed-solution?">🔗</a> </h2>'
       description: |
         Outline the technical plan to fix the debt.
         Describe the desired end state.
@@ -70,7 +70,7 @@ body:
   - type: textarea
     id: sub-issues
     attributes:
-      label: '<h2> Sub-issues <a id="sub-issues" href="#sub-issues">📎</a> </h2>'
+      label: '<h2> Sub-issues <a id="sub-issues" href="#sub-issues">🔗</a> </h2>'
       description: |
         Don't modify the default text in this input field.
       value: |

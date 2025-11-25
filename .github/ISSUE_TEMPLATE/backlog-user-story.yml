@@ -27,7 +27,7 @@ body:
   - type: textarea
     id: acceptance-criteria
     attributes:
-      label: '<h2> Acceptance criteria (AC) <a id="acceptance-criteria-ac" href="#acceptance-criteria-ac">📎</a> </h2>'
+      label: '<h2> Acceptance criteria (AC) <a id="acceptance-criteria-ac" href="#acceptance-criteria-ac">🔗</a> </h2>'
       description: |
         Define specific, testable (pass-fail) scenarios that must be met for this story to be complete.
         Each criterion should be in its own "AC" section below.
@@ -52,7 +52,7 @@ body:
   - type: textarea
     id: acceptance-criterion-1
     attributes:
-      label: '<h3> AC-1 <a id="ac-1" href="#ac-1">📎</a> </h3>'
+      label: '<h3> AC-1 <a id="ac-1" href="#ac-1">🔗</a> </h3>'
       placeholder: |
         GIVEN ...
         WHEN ...
@@ -63,7 +63,7 @@ body:
   - type: textarea
     id: acceptance-criterion-2
     attributes:
-      label: '<h3> AC-2 <a id="ac-2" href="#ac-2">📎</a> </h3>'
+      label: '<h3> AC-2 <a id="ac-2" href="#ac-2">🔗</a> </h3>'
       placeholder: |
         GIVEN ...
         WHEN ...
@@ -74,7 +74,7 @@ body:
   - type: textarea
     id: acceptance-criterion-3
     attributes:
-      label: '<h3> AC-3 <a id="ac-3" href="#ac-3">📎</a> </h3>'
+      label: '<h3> AC-3 <a id="ac-3" href="#ac-3">🔗</a> </h3>'
       placeholder: |
         GIVEN ...
         WHEN ...
@@ -85,7 +85,7 @@ body:
   - type: textarea
     id: sub-issues
     attributes:
-      label: '<h2> Sub-issues <a id="sub-issues" href="#sub-issues">📎</a> </h2>'
+      label: '<h2> Sub-issues <a id="sub-issues" href="#sub-issues">🔗</a> </h2>'
       description: |
         Don't modify the default text in this input field.
       value: |

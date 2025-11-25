@@ -8,7 +8,7 @@ body:
   - type: textarea
     id: reproduce
     attributes:
-      label: '<h2> Steps to reproduce <a id="steps-to-reproduce" href="#steps-to-reproduce">📎</a> </h2>'
+      label: '<h2> Steps to reproduce <a id="steps-to-reproduce" href="#steps-to-reproduce">🔗</a> </h2>'
       description: |
         Explain step by step how to reproduce the behavior.
         Provide screenshots or a video if necessary.
@@ -25,7 +25,7 @@ body:
   - type: textarea
     id: expected-behavior
     attributes:
-      label: '<h2> Expected Behavior <a id="expected-behavior" href="#expected-behavior">📎</a> </h2>'
+      label: '<h2> Expected Behavior <a id="expected-behavior" href="#expected-behavior">🔗</a> </h2>'
       description: |
         Briefly describe what you expect to happen.
         Provide screenshots or a video if necessary.
@@ -40,7 +40,7 @@ body:
   - type: textarea
     id: current-behavior
     attributes:
-      label: '<h2> Actual Behavior <a id="actual-behavior" href="#actual-behavior">📎</a> </h2>'
+      label: '<h2> Actual Behavior <a id="actual-behavior" href="#actual-behavior">🔗</a> </h2>'
       description: |
         Briefly describe what you're experiencing.
         Provide screenshots or a video if necessary.
@@ -55,7 +55,7 @@ body:
   - type: textarea
     id: sub-issues
     attributes:
-      label: '<h2> Sub-issues <a id="sub-issues" href="#sub-issues">📎</a> </h2>'
+      label: '<h2> Sub-issues <a id="sub-issues" href="#sub-issues">🔗</a> </h2>'
       description: |
         Don't modify the default text in this input field.
       value: |

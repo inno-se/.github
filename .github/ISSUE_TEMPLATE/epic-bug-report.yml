@@ -38,7 +38,7 @@ body:
       required: true
 
   - type: textarea
-    id: current-behavior
+    id: actual-behavior
     attributes:
       label: '<h2> Actual Behavior <a id="actual-behavior" href="#actual-behavior">🔗</a> </h2>'
       description: |
